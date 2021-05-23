@@ -1,0 +1,101 @@
+.home__content {
+    grid-template-columns: .5fr 3fr;
+    padding-top: 3.5rem;
+    align-items: center;
+}
+
+.home__container {
+    gap: 1rem;
+}
+
+.home__social {
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+}
+
+.home__data {
+    grid-column: 1/3;
+}
+
+.home__social-icon {
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.home__social-icon:hover {
+    color: #000;
+}
+
+.home__title {
+    font-size: 4rem;
+}
+
+.home__subtitle {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 0.2rem;
+}
+
+.home__description {
+    margin-bottom: 1.2rem;
+}
+
+.home__scroll-button {
+    color: #000;
+    transition: .3s;
+}
+
+.home__scroll-button:hover {
+    transform: translateY(0.25rem);
+}
+
+.home__scroll-mouse{
+    font-size: 2rem;
+}
+
+.home__scroll-name {
+    font-size: 1.2rem;
+    margin-right: 0.3rem;
+}
+
+.home__scroll-arrow{
+    font-size: 1.25rem;
+}
+
+
+.home__img img {
+    border-radius: 15px;
+    width: 170px;
+}
+
+.button {
+    background-color: rgb(34, 31, 31);
+    display: inline-block;
+    color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.button__small {
+    padding: .75rem 1rem;
+}
+
+
+
+.button__icon {
+    font-size: 1.25rem;
+    transition: .3s;
+    margin-left: 10px;
+}
+
+.button__flex {
+    display: inline-flex;
+    align-items: center;
+}
+

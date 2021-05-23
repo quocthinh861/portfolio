@@ -1,0 +1,49 @@
+.about__img {
+    width: 200px;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.about {
+    background-color: hsl(255, 3%, 31%)
+}
+
+.about__description {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+.about__info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+.about__info-title {
+    font-size: 1.5rem;
+}
+
+.about__info-title, .about__info-name {
+    display: block;
+    text-align: center;
+
+}
+
+.about__buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.about__buttons a {
+    background-color: rgb(34, 31, 31);
+    color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.about__buttons a:hover {
+    background-color: white;
+    color: black;
+}

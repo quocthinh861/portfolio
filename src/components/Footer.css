@@ -1,0 +1,56 @@
+.footer {
+    padding-top: 2rem;
+}
+
+.footer__container {
+    row-gap: 3.5rem;
+}
+
+.footer__bg {
+    padding: 2rem 0 3rem;
+}
+
+.footer__title {
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.footer__links {
+    display: flex;
+    row-gap: 1.5rem;
+}
+
+.footer__social {
+    font-size: 1.25rem;
+}
+
+.footer__link {
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.footer__link:hover {
+    color: black;
+}
+
+.footer__copy {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: hsl(255, 2%, 42%);
+}
+
+
+.footer__link, 
+.footer__social {
+    color: #fff;
+}
+
+
+.footer__subtitle {
+    color: black;
+}

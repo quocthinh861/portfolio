@@ -1,0 +1,35 @@
+.qualification__tabs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1.5rem;
+}
+
+.qualification__button {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.qualification__button:hover {
+    color: black;   
+}
+
+.qualification__icon{
+    font-size: 1.8rem;
+    margin-right: 0.5rem;
+}
+
+.qualification {
+    background-color: hsl(255, 3%, 31%)
+}
+
+.qualification__data{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 1.5rem;
+   margin-bottom: 1rem;
+}
+.qualification__calendar {
+    align-self: center;
+    justify-self: center;
+}
+

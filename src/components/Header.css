@@ -1,0 +1,93 @@
+.container {
+    max-width: 768px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    background-color: hsl(270, 2%, 18%);
+}
+
+.nav {
+    max-width: 968px;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo, .nav__toggle {
+    color: #000;
+}
+
+.nav__logo:hover {
+    color: #fff;
+}
+
+.nav__toggle {
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.nav__toggle:hover {
+    color: #fff;
+}
+
+
+@media screen and (max-width: 767px){
+    .nav__menu {
+        position: fixed;
+        left: 0;
+        bottom: -100%;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: hsl(270, 2%, 18%);
+        padding: 2rem 1.5rem 4rem;
+        box-shadow: 0 -1px 4px rgba(0,0,0,.15);
+        border-radius: 15px 15px 0 0;
+        transform: .3s;
+    }
+}
+
+.nav__list {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.nav__link:hover {
+    color:#000;
+}
+
+.nav__icon {
+    font-size: 1.2rem;
+}
+
+#nav-close {
+    position: absolute;
+    right: 1.3rem;
+    bottom: .5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #000;
+}
+
+#nav-close:hover {
+    color: red;
+}
+
+.show-menu {
+    bottom: 0;
+}

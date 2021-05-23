@@ -1,0 +1,30 @@
+.portfolio__container {
+    overflow: initial;
+}
+
+.portfolio__content {
+    padding: 0 1.5rem;
+}
+
+.portfolio {
+    background-color: hsl(255, 3%, 31%)
+}
+
+.portfolio__img {
+    width: 250px;
+    border-radius: .5rem;
+    justify-self: center;
+}
+
+.portfolio__title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.portfolio__description {
+    margin-bottom: 0.75rem;
+}
+
+.portfolio__button:hover .button__icon{
+    transform: translateX(.25rem);
+}
